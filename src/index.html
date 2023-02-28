@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('components/_head.html', { 'title': 'Conquest', 'description':
+  'Описание Conquest', })
+  <body>
+    <div class="wrapper">
+      @@include('components/_header.html', {})
+
+      <main class="main">
+        @@include('components/_banner.html', {})
+        @@include('components/_popular.html', {})
+        @@include('components/_feature.html', {})
+        @@include('components/_news.html', {})
+      </main>
+
+      @@include('components/_footer.html', {})
+    </div>
+    @@include('components/_scripts.html', {})
+  </body>
+</html>
